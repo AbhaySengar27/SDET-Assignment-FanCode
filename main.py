@@ -31,11 +31,11 @@ def main():
     
     for user in fancode_users:
         completed_percentage = get_completed_percentage(user['id'], todos)
-    print(f"User {user['name']} has completed {completed_percentage:.2f}% of their tasks.")
-    if completed_percentage > 50:
-     print(f"User {user['name']} has more than 50% tasks completed.")
-    else:
-     print(f"User {user['name']} has 50% or fewer tasks completed.")
+        print(f"User {user['name']} has completed {completed_percentage:.2f}% of their tasks.")
+        if completed_percentage > 50:
+            print(f"User {user['name']} has more than 50% tasks completed.")
+        else:
+            print(f"User {user['name']} has 50% or fewer tasks completed.")
 
 if __name__ == "__main__":
     main()
