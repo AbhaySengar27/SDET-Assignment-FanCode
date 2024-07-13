@@ -9,7 +9,6 @@
 2. Navigate to the project directory
    ```
    cd SDET-Assignment-FanCode
-
    ```
 3. Install dependencies
    ```
