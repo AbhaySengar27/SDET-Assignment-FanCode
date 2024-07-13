@@ -4,7 +4,7 @@
 
 1. Clone the repository
    ```
-   git clone <repository-url>
+   git clone https://github.com/AbhaySengar27/SDET-Assignment-FanCode
    ```
 2. Navigate to the project directory
    ```
